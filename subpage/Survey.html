@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Why use apple?</title>
+    <style>
+        body {
+            background: url(../style/apple.jpg) no-repeat center fixed;
+            background-size: cover;
+        }
+        .button {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+            position: fixed;
+        }
+        .button1:hover {
+            background-color: #555555;
+            color: white;
+        }
+        .button2 {
+            background-color: white;
+            color: black;
+            border: 1px solid #555555;
+            position: fixed;
+        }
+        .button2:hover {
+            background-color: #555555;
+            color: white;
+        }
+        .link-hori {
+            width: 50%;
+            height: 1px;
+            border-top: solid #ACC0D8 1px;
+        }
+         .survey{
+             border:1px solid #a0b3d6;
+             width: 500px;
+             min-height: 200px;
+             font-size: 14px;
+             padding: 4px;
+             color: #333;
+             outline:0;
+         }
+
+        .survey:empty::before{
+            content:attr(placeholder);
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Survey: Why you choose Apple products?</h1>
+    <p><br></p>
+    <div class="link-hori"></div>
+    <p><br></p>
+    <div class="survey" contenteditable="true" placeholder="enter here..."></div>
+    <button class="button button2" onclick="window.location.href='../index.html'">submit</button>
+
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    <button class="button button1" onclick="window.location.href='../index.html'">Back</button>
+</body>
+</html>

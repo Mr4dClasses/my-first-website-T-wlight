@@ -1,0 +1,72 @@
+h1.title {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+.shape{
+    margin: 20px auto;
+    width: 1000px;
+    height: 40px;
+    background-color: black;
+    list-style: none;
+}
+.shape li{
+    width:25%;
+    text-align:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    float:left;
+}
+.shape li a{
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.shape li:hover{
+    background-color: cornsilk;
+}
+
+/* horizontal line */
+.link-hor {
+    width: 50%;
+    height: 1px;
+    border-top: solid #ACC0D8 1px;
+}
+
+/* vertical line */
+.link-vertical {
+    width: 50px;
+    height: 20%;
+    border-right: solid #ACC0D8 1px;
+}
+
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    position: fixed;
+}
+.button1:hover {
+    background-color: #555555;
+    color: white;
+}
